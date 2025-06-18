@@ -1,16 +1,21 @@
 .img {
-    object-fit: cover;
-    width: 100%;
+    min-height: 1000px;
+    background-image: url('bg1.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .message {
+    top: 100px;
     width: 100%;
-    height: 50px;
+    height: 100px;
     background-color: black;
     color: azure;
     text-align: center;
 }
 
-.img {
+.img2 {
     object-fit: cover;
     width: 100%;
 }
