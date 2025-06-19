@@ -1,5 +1,7 @@
 .header {
     text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 .box {
     display: flex;
@@ -13,14 +15,14 @@
     align-items: center;
     box-shadow: 1px 1px 1px 1px;
     width: 200px;
+    border-radius: 5px;
 
 }
 .img {
     width: 100%;
-    min-height: 100px;
-    background-image: url("p1.avif");
+    min-height: 200px;
+    background-image: url("Ao1.my.jpeg");
     background-position: center;
-    background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,7 +33,7 @@
 }
 .text {
     font-size: 18px;
-    padding: 5px;
+    padding: 5%;
 }
 .contact {
     background-color: black;
@@ -43,6 +45,15 @@
     width: 20px;
     height: 20px;
     background-image: url("facebook.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ig {
+    width: 15px;
+    height: 15px;
+    background-image: url(ig.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
